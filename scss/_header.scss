@@ -1,0 +1,117 @@
+/* NAV BAR */
+nav {
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  display: inline-block;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav #search {
+  height: 15px;
+  display: block;
+  padding: 13px 10px 0px 0px;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+
+nav img {
+  height: 40px;
+  float: left;
+  padding: 9px 380px;
+  display: block;
+}
+
+.navbar {
+  margin-top: 2px;
+  margin-right: 370px;
+}
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: $hoofdkleur;
+  text-align: center;
+  padding: 12px 10px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: $hoofdkleur;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: $hoofdkleur;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* HEADER */
+.headerimage {
+  height: 380px;
+  width: 100%;
+  margin: 0 auto;
+  background-position: top;
+  background-image: url('img/slide-iddink.jpg');
+  background-size: cover;
+  margin-top: -20px;
+}
+
+.headerimage h2 {
+  padding-top: 160px;
+  padding-left: 390px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 21.25px;
+}
+
+#readmore {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  background-color: #0073CF;
+  color: #fff;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #fff;
+  border-radius: 5px;
+  display: block;
+  margin-left: 630px;
+}

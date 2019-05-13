@@ -1,0 +1,39 @@
+.grid {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-gap: 45px;
+}
+
+.grid #personen1 {
+  grid-column: 1;
+}
+
+.grid #personen2 {
+  grid-column: 2;
+}
+
+.grid #personen3 {
+  grid-column: 3;
+}
+
+.grid #personen4 {
+  grid-column: 4;
+}
+
+.grid section h3 {
+  font-size: 16px;
+  color: $hoofdkleur;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.grid section p {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.grid section .leesmeer {
+  font-size: 14px;
+  color: $hoofdkleur;
+}
